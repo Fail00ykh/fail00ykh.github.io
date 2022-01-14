@@ -127,7 +127,6 @@
 .u-section-2 .u-slider-1 {
   width: 758px;
   min-height: 529px;
-  height: auto;
   margin: 20px auto 60px;
 }
 
@@ -239,6 +238,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-slider-1 {
+    height: auto;
+  }
+
   .u-section-2 .u-image-2 {
     margin-right: initial;
     margin-left: initial;
