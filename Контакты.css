@@ -8,7 +8,7 @@
   font-size: 0.9375rem;
   background-image: none;
   align-self: center;
-  margin: 200px auto 0;
+  margin: 221px auto 0;
   padding: 13px 228px 14px;
 }
 
@@ -17,7 +17,7 @@
   font-weight: 700;
   font-size: 0.9375rem;
   background-image: none;
-  margin: 24px auto 0;
+  margin: 31px auto 0;
   padding: 12px 235px 14px;
 }
 
@@ -26,13 +26,22 @@
   font-weight: 700;
   font-size: 0.9375rem;
   background-image: none;
-  margin: 24px auto 60px;
+  margin: 31px auto 0;
   padding: 12px 244px 14px;
+}
+
+.u-section-1 .u-btn-4 {
+  border-style: none;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  background-image: none;
+  margin: 31px auto 60px;
+  padding: 13px 205px;
 }
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 518px;
+    min-height: 553px;
   }
 
   .u-section-1 .u-btn-1 {
@@ -54,5 +63,12 @@
     margin-left: -29px;
     margin-right: -29px;
     padding: 13px 175px;
+  }
+
+  .u-section-1 .u-btn-4 {
+    margin-left: -29px;
+    margin-right: -29px;
+    padding-right: 136px;
+    padding-left: 135px;
   }
 }
